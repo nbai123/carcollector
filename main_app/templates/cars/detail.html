@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Car Details</h1>
+
+<div class="card">
+  <div class="card-content">
+    <span class="card-title"></span>
+    <p>Make: {{ car.make }}</p>
+    <p>Model: {{ car.model }}</p>
+    <p>Motor: {{ car.motor }}</p>
+    <p>Horsepower: {{ car.horsepower }}</p>
+    <p>Torque: {{ car.torque }}</p>
+    <p>PTWR: {{ car.ptwr }}</p>
+    <p>Cost: {{ car.cost }}</p>
+  </div>
+</div>
+
+{% endblock %}
